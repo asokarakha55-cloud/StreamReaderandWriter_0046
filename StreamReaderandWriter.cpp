@@ -21,5 +21,8 @@ int main()
         cout << "- ";
         // Mendapat setiap karakter udalam satu baris
         getline(cin, baris);
+        // kondisi false jika baris hanya berisi karakter q
+        if (baris == "q")
+            break;
     }
 }
