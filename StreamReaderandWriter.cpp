@@ -45,5 +45,7 @@ int main()
         {
             cout << baris << endl;
         }
+        // menutup file setelah pembacaan selesai
+        infile.close();
     }
 }
