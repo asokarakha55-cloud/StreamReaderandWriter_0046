@@ -18,5 +18,8 @@ int main()
     // unlimited loop untuk menulis file
     while (true)
     {
+        cout << "- ";
+        // Mendapat setiap karakter udalam satu baris
+        getline(cin, baris);
     }
 }
